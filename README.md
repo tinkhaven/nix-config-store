@@ -4,24 +4,26 @@
 
 ### nginx 
 
-git clone git@github.com:tinkerthaler/nix-nginx.git /etc/nginx
+    git clone git@github.com:tinkerthaler/nix-nginx.git /etc/nginx
 
 ### noip
 
-mkdir /etc/noip
+    mkdir /etc/noip
+    cd /etc/noip
+    noip2 -C
 
 ## Configuration
 
 /etc/nixos/configuration.nix
 
-  { config, pkgs, ...}:
-  {
-    imports = [
-      ./amazon-base-config.nix
-      ./nix_config_store/base-packages.nix
-      ./nix_config_store/nginx.nix
-      ./nix_config_store/noip.nix
-    ];
-    ec2.hvm = true;
-  
-  }
+    { config, pkgs, ...}:
+    {
+      imports = [
+        ./amazon-base-config.nix
+        ./nix_config_store/base-packages.nix
+        ./nix_config_store/nginx.nix
+        ./nix_config_store/noip.nix
+      ];
+      ec2.hvm = true;
+    
+    }
