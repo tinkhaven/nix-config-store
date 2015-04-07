@@ -11,6 +11,7 @@ After launching the instance I immedialy setup my services using some simple def
 ### nginx 
 
     git clone git@github.com:tinkerthaler/nix-nginx.git /etc/nginx
+    mkdir /var/log/nginx
 
 ### noip
 
