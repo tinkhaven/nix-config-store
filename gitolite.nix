@@ -4,7 +4,7 @@
   services.gitolite = {
     enable = true;
     dataDir = "/var/git";
-    adminPubkey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCf4aPzEvnqJwigAP0ECC+OQZgYaP2SUqtD3Ih3kogQ3Y/w3Y4tcz/3FBEV19MmNDO496rLa774/kudMGSvjZzz+vQQRgoOm5ocIw2zNDvR18LaKakU76IQkkAZxEYSqF+cUqrsAs0y2uT2QGCEq3hcZfFnx9+903fH5ZwOL1K4pNO+NGOGVGPjzm+mhgWLK0k8BFBw2LQHQFkyKC9X/jTmlAmTg2bVcXJGAAGt/uUEyfDF/fOtpNBgkQe2r8ZDtumiwZ13GDVzpcjnPJmxiS6y6OrsYvl0dx0yIBDMMVYiopCeX16t0eklvES3tug+ePtnGMy+buXy1FPwbrz7Fmi/ git@bagua";
+    adminPubkey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMzox8/XkGp6v8QcPOcCardQrg1f0YAI07v6WbTHDbOK9WuUQ5o6oRCjyqt7DqT4thfxHc3wJstThPC5ImCN+GnTawsqXeHWsdPDDS3ZkiSNNeZlSbvsCqfOINs0n0bcyCVCS/8ysPrG8g4FEc0VAfYgh9XFg1jwzfTjHXJAp9FvyS6EC3fpDJGUWTZoxvZCAxaz1HCABsjSHj1aa5X66GKtkI7Bj4KzQ9TnzCd4p3jnbvPVh9yi1fW9IxuAvhXRO+4dIUjNmgSHawztrzysl1co8NGIMv64syRceTSDl+nnIrpTLDR0Buh3le30ylERDc3pmYXXBiHecQbNMg9Iaf tinkerthaler@jujuy";
     user = "git";
 
   };
