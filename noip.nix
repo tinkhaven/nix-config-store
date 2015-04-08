@@ -7,7 +7,7 @@
     serviceConfig = {
       Type = "forking";
       User = "root";
-      ExecStart = ''/root/.nix-profile/bin/noip2 -d -c /root/noip'';
+      ExecStart = ''/root/.nix-profile/bin/noip2 -d -c /etc/noip/noip'';
     };
   };
 }
